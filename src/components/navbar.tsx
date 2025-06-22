@@ -12,30 +12,22 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navigation">
           <ul className="navbar-nav ms-auto">
-            
-            <li className="nav-item dropdown">
-              <a className="nav-link text-dark dropdown-toggle font-weight-bold d-flex align-items-center me-2 " aria-current="page" id="pagesExample" data-bs-toggle="dropdown" aria-expanded="false">
-                Pages <i className="bi bi-chevron-down ms-1"></i>
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="pagesExample">
-                <li><a className="dropdown-item" href="/">Landing Page</a></li>
-                <li><a className="dropdown-item" href="/product/">Product Page</a></li>
-                <li><a className="dropdown-item" href="/shopping-cart/">Shopping Cart</a></li>
-              </ul>
-            </li>
             <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://www.creative-tim.com/learning-lab/astro/overview/astro-ecommerce">
-                Documentation
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="/">
+                <i className="bi bi-house me-1"></i>
+                Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://github.com/creativetimofficial/astro-ecommerce">
-                <i className="fab text-lg fa-github"></i>
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="/products">
+                <i className="bi bi-grid me-1"></i>
+                Products
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://discord.com/invite/TGZqBvZB" rel="nofollow" target="_blank">
-                <i className="fab text-lg fa-discord"></i>
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2" href="/shopping-cart">
+                <i className="bi bi-cart me-1"></i>
+                Cart
               </a>
             </li>
           </ul>

@@ -1,44 +1,118 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import data from '../../public/data.json';
-import '../../assets/scss/astro-ecommerce.scss';
+import { getCollection } from 'astro:content';
 import Navbar from '../components/navbar';
-import UpperNavbar from '../components/store/upperNavbar';
+import Footer from '../components/footer';
+import ShoppingCartVue from '../components/cart/ShoppingCartVue.vue';
 import CardProduct from '../components/products/cardProduct';
-import ShoppingCart from '../components/cart/shoppingCart';
-import StoreDoubleColumn from '../components/store/storeDoubleColumn';
+import '../../assets/scss/astro-ecommerce.scss';
 
-let cartItems = [];
-data.shoppingCart.map(id => 
-  data.products.filter(x => x.id == id).map(x => cartItems.push(x))
-)
+// Get some recommended products
+const allProducts = await getCollection('products');
+const recommendedProducts = allProducts.slice(0, 4).map(product => product.data);
 ---
 
-<Layout title="Shopping Cart">
-	<main>
-    <Navbar />
-
-    <ShoppingCart products = {cartItems}/>
-    
-    <div class="container mt-5">
-      <div class="row">
-        <h5 class="mb-4">You may also like...</h5>
-        {data.products.map(product => 
-          <div class="col-md-6 col-lg-3">
-            <CardProduct 
-              thumb_src = {product.thumb_src}
-              thumb_alt = {product.thumb_alt}
-              color = {product.color}
-              title = {product.title}
-              price = {product.price}
-              position = "left"
-            />
-          </div>
-        )}        
+<Layout title="Shopping Cart - E-Store">
+  <!-- React Island - Navbar -->
+  <Navbar client:load />
+  
+  <main>
+    <!-- Header -->
+    <section class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="font-weight-bolder mb-3">
+            <i class="bi bi-cart me-3 text-primary"></i>
+            Shopping Cart
+          </h1>
+          <p class="lead text-muted">Review your selected products</p>
+          <p class="text-muted small">
+            <strong>Vue Island:</strong> Interactive cart with state management
+          </p>
+        </div>
       </div>
-      <hr class="dark horizontal my-5" />
-      <StoreDoubleColumn />
-    </div>
+    </section>
+
+    <!-- Shopping Cart Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <!-- Vue Island - Shopping Cart with client:load directive -->
+                <ShoppingCartVue 
+                  client:load
+                  title="Your Shopping Cart (Vue Island)"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Continue Shopping -->
+        <div class="text-center mt-5">
+          <a href="/products" class="btn btn-outline-primary btn-lg">
+            <i class="bi bi-arrow-left me-2"></i>
+            Continue Shopping
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommended Products -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h3 class="font-weight-bold">You may also like...</h3>
+          <p class="text-muted">Recommended products based on your selection</p>
+        </div>
+        
+        <div class="row g-4">
+          {recommendedProducts.map(product => (
+            <div class="col-md-6 col-lg-3">
+              <!-- React Island - Product Card -->
+              <CardProduct
+                client:visible
+                thumb_src={product.thumb_src}
+                thumb_alt={product.thumb_alt}
+                collection={product.category}
+                title={product.title}
+                price={product.price}
+                rating={product.rating}
+                reviews={product.reviews}
+                productId={product.id}
+                productLink={`/products/${product.id}`}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <i class="bi bi-truck text-primary display-4 mb-3"></i>
+            <h5 class="font-weight-bold">Free Shipping</h5>
+            <p class="text-muted">On orders over $100</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <i class="bi bi-shield-check text-primary display-4 mb-3"></i>
+            <h5 class="font-weight-bold">Secure Payment</h5>
+            <p class="text-muted">Your payment is safe with us</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <i class="bi bi-headset text-primary display-4 mb-3"></i>
+            <h5 class="font-weight-bold">24/7 Support</h5>
+            <p class="text-muted">Get help when you need it</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <Footer />
 </Layout>
