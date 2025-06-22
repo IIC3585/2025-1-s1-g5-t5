@@ -1,6 +1,6 @@
 
 interface Props {
-  // order: string;
+  order?: string;
 }
 
 export default function incentiveLarge({
