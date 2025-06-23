@@ -1,0 +1,69 @@
+{
+  "id": "21",
+  "thumb_src": "/images/product3.jpg",
+  "thumb_alt": "Elegant Dress Blue",
+  "title": "Blue Elegant Dress V2",
+  "description": "Premium elegant dress crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our blue elegant dress. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 239,
+  "color": "Blue",
+  "colors": [
+    "blue"
+  ],
+  "category": "Dresses",
+  "subcategory": "Winter",
+  "brand": "Modern Style",
+  "rating": 4,
+  "reviews": 133,
+  "stock": true,
+  "size": "S",
+  "sizes": {
+    "XS": 6,
+    "S": 1,
+    "M": 11,
+    "L": 10,
+    "XL": 8
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1560942602?w=800&q=80",
+      "alt": "Elegant Dress front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1594551010?w=800&q=80",
+      "alt": "Elegant Dress side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this elegant dress represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium elegant dress with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Modern Style",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "blue",
+    "dresses",
+    "winter",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

@@ -1,0 +1,72 @@
+{
+  "id": "38",
+  "thumb_src": "/images/suit-3.jpg",
+  "thumb_alt": "Business Pants Black",
+  "title": "Black Business Pants V3",
+  "description": "Premium business pants crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our black business pants. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 89,
+  "color": "Black",
+  "colors": [
+    "black",
+    "black"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Fall",
+  "brand": "Luxury Series",
+  "rating": 5,
+  "reviews": 57,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 1,
+    "S": 13,
+    "M": 4,
+    "L": 4,
+    "XL": 8
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1563164867?w=800&q=80",
+      "alt": "Business Pants front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1556525349?w=800&q=80",
+      "alt": "Business Pants side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 7 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this business pants represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium business pants with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Luxury Series",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "black",
+    "formal-wear",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 29,
+  "salePrice": 63
+}

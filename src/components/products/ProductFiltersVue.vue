@@ -103,6 +103,10 @@ export default {
     products: {
       type: Array,
       default: () => []
+    },
+    categories: {
+      type: Array,
+      default: () => []
     }
   },
   setup(props) {
@@ -115,15 +119,21 @@ export default {
     const filteredCount = ref(0);
 
     const categories = computed(() => {
-      return [...new Set(props.products.map(p => p.category))].sort();
+      return props.categories || [...new Set(props.products.map(p => p.category))].sort();
     });
 
     const minPrice = computed(() => {
-      return Math.min(...props.products.map(p => parseFloat(p.price?.replace('$', '') || 0)));
+      return Math.min(...props.products.map(p => {
+        const price = typeof p.price === 'number' ? p.price : parseFloat(p.price) || 0;
+        return price;
+      }));
     });
 
     const maxPrice = computed(() => {
-      return Math.max(...props.products.map(p => parseFloat(p.price?.replace('$', '') || 0)));
+      return Math.max(...props.products.map(p => {
+        const price = typeof p.price === 'number' ? p.price : parseFloat(p.price) || 0;
+        return price;
+      }));
     });
 
     const totalProducts = computed(() => {
@@ -150,7 +160,7 @@ export default {
 
       if (priceRange.value.min || priceRange.value.max) {
         filtered = filtered.filter(p => {
-          const price = parseFloat(p.price?.replace('$', '') || 0);
+          const price = typeof p.price === 'number' ? p.price : parseFloat(p.price) || 0;
           const min = priceRange.value.min || 0;
           const max = priceRange.value.max || Infinity;
           return price >= min && price <= max;
@@ -198,13 +208,15 @@ export default {
   font-size: 0.9rem;
 }
 
-.form-check-input:checked {
-  background-color: #007bff;
-  border-color: #007bff;
+.form-check {
+  margin-bottom: 0.5rem;
 }
 
-.form-control:focus {
-  border-color: #80bdff;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+.form-check-label {
+  font-size: 0.9rem;
+}
+
+.text-warning {
+  font-size: 0.8rem;
 }
 </style>

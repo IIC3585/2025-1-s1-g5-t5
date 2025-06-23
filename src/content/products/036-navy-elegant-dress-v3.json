@@ -1,0 +1,71 @@
+{
+  "id": "36",
+  "thumb_src": "/images/product2.jpg",
+  "thumb_alt": "Elegant Dress Navy",
+  "title": "Navy Elegant Dress V3",
+  "description": "Premium elegant dress crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our navy elegant dress. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 172,
+  "color": "Navy",
+  "colors": [
+    "navy",
+    "black",
+    "white"
+  ],
+  "category": "Dresses",
+  "subcategory": "Spring",
+  "brand": "Designer Select",
+  "rating": 5,
+  "reviews": 242,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 5,
+    "S": 0,
+    "M": 6,
+    "L": 1,
+    "XL": 1
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1550220996?w=800&q=80",
+      "alt": "Elegant Dress front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1590305266?w=800&q=80",
+      "alt": "Elegant Dress side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 3 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this elegant dress represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium elegant dress with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Designer Select",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "navy",
+    "dresses",
+    "spring",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

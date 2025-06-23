@@ -1,0 +1,69 @@
+{
+  "id": "46",
+  "thumb_src": "/images/suit-2.jpg",
+  "thumb_alt": "Evening Gown White",
+  "title": "White Evening Gown V3",
+  "description": "Premium evening gown crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our white evening gown. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 456,
+  "color": "White",
+  "colors": [
+    "white"
+  ],
+  "category": "Dresses",
+  "subcategory": "Winter",
+  "brand": "Elite Choice",
+  "rating": 5,
+  "reviews": 85,
+  "stock": true,
+  "size": "M",
+  "sizes": {
+    "XS": 8,
+    "S": 11,
+    "M": 8,
+    "L": 8,
+    "XL": 2
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1502922413?w=800&q=80",
+      "alt": "Evening Gown front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558215377?w=800&q=80",
+      "alt": "Evening Gown side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this evening gown represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium evening gown with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "white",
+    "dresses",
+    "winter",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

@@ -1,66 +1,474 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import data from '../../public/data.json';
 import '../../assets/scss/astro-ecommerce.scss';
-import CardCategory from '../components/products/cardCategory';
-import ProductFeature from '../components/products/productFeature';
-import Navbar from '../components/navbar';
-import Footer from '../components/footer';
-import TestimonialsFade from '../components/promo/testimonialsFade';
-import PromoSectionLarge from '../components/promo/promoSectionLarge';
+import ComplexNavbar from '../components/complexNavbar';
+import ComplexFooter from '../components/complexFooter';
+import CardProduct from '../components/products/cardProduct';
+import IncentiveLarge from '../components/incentives/incentiveLarge';
+
+// Fetch data from Content Collections
+const allProducts = await getCollection('products');
+const allCategories = await getCollection('categories');
+const products = allProducts.map(product => product.data);
+const categories = allCategories.map(category => category.data);
+
+// Get featured products
+const featuredProducts = products.filter(p => p.featured).slice(0, 8);
 ---
 
-<Layout title="Landing Page">
+<Layout title="E-Store - Built with Astro Islands">
 	<main>
-    <Navbar />
-    <PromoSectionLarge 
-      title={"Collection is here"}
-      full_description={data.products[0].full_description}  
-      pageHeaderBgImg={"../images/bg2.jpg"}
-      pageHeaderMinVh="90vh"
-    />
-    <div class="container my-5">
-      <div class="d-block text-center mb-5">
-        <h3>Shop by category</h3>
-        <a class="text-dark font-weight-bold" href="#">Browse all categories &#62;</a>
-      </div>
-      <div class="row mb-5">
-        {data.categories.slice(0, 4).map(category => 
-          <div class="col-md-6 col-lg-3">
-            <CardCategory
-              thumb_src = {category.thumb_src}
-              collection = {category.collection}
-              title = {category.title}
-            />
-          </div>
-        )}
-      </div>
+		<ComplexNavbar client:load />
+		
+		<!-- Hero Section -->
+		<section class="hero-section min-vh-100 d-flex align-items-center">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="hero-content">
+							<span class="hero-badge">✨ New Collection</span>
+							<h1 class="hero-title">
+								Premium Fashion
+								<span class="hero-title-accent">Store</span>
+							</h1>
+							<p class="hero-description">
+								Discover {products.length} amazing products across {categories.length} categories. 
+								Built with modern technology for the best shopping experience.
+							</p>
+							<div class="hero-buttons">
+								<a href="/products" class="btn-primary-custom">
+									<i class="bi bi-bag me-2"></i>
+									Shop Now
+								</a>
+								<a href="/shopping-cart" class="btn-secondary-custom">
+									<i class="bi bi-cart me-2"></i>
+									View Cart
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="hero-visual">
+							<div class="hero-circle hero-circle-1"></div>
+							<div class="hero-circle hero-circle-2"></div>
+							<div class="hero-circle hero-circle-3"></div>
+							<div class="hero-stats">
+								<div class="stat-card">
+									<h3>{products.length}+</h3>
+									<p>Products</p>
+								</div>
+								<div class="stat-card">
+									<h3>{categories.length}+</h3>
+									<p>Categories</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <PromoSectionLarge 
-      title="Basic Starter Pack"
-      full_description={data.products[0].full_description} 
-      pageHeaderBgImg={"../images/bg2.jpg"} 
-      pageHeaderMinVh="50vh"
-      pageHeaderRadius="1rem"
-    />
-    <div class="my-5">
-      <ProductFeature
-        title="Product Features"
-        images={data.products[2].images}
-        full_description="Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible"
-        featuresDetails={data.products[0].featuresDetails}
-      />
-    </div>
-    <div class="mt-5 mb-10">
-      <TestimonialsFade 
-        pageHeaderBgImg={"https://images.unsplash.com/photo-1519642918688-7e43b19245d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2676&q=80"} 
-        pageHeaderMinVh="50vh"
-      />
-    </div>
-    
-    <Footer />
+		<!-- Incentives Section -->
+		<section class="incentives-section">
+			<div class="container">
+				<IncentiveLarge />
+			</div>
+		</section>
 
-    </div>
-  </main>
+		<!-- Featured Products -->
+		<section class="products-section">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title">Featured Products</h2>
+					<p class="section-description">Handpicked items from our collection</p>
+				</div>
+				<div class="products-grid">
+					{featuredProducts.map(product => (
+						<div class="product-item">
+							<CardProduct
+								client:load
+								id={product.id}
+								thumb_src={product.thumb_src}
+								thumb_alt={product.thumb_alt || product.title}
+								color={product.color}
+								title={product.title}
+								description={product.description}
+								price={product.price}
+								colors={product.colors}
+								position="center"
+								stock={product.stock}
+								category={product.category}
+								rating={product.rating}
+							/>
+						</div>
+					))}
+				</div>
+				<div class="products-cta">
+					<a href="/products" class="btn-primary-custom">
+						View All {products.length} Products
+					</a>
+				</div>
+			</div>
+		</section>
 
+		<ComplexFooter />
+	</main>
 </Layout>
+
+<style>
+	/* Color Variables */
+	:root {
+		--primary: #6366f1;
+		--primary-dark: #4f46e5;
+		--secondary: #f1f5f9;
+		--accent: #06b6d4;
+		--dark: #0f172a;
+		--gray: #64748b;
+		--light-gray: #f8fafc;
+		--white: #ffffff;
+		--gradient-primary: linear-gradient(135deg, #6366f1 0%, #06b6d4 100%);
+		--gradient-secondary: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+		--shadow: 0 10px 30px rgba(99, 102, 241, 0.1);
+		--shadow-hover: 0 20px 40px rgba(99, 102, 241, 0.15);
+	}
+
+	/* Global Styles */
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+		font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		line-height: 1.6;
+		color: var(--dark);
+	}
+
+	/* Hero Section */
+	.hero-section {
+		background: var(--gradient-secondary);
+		padding: 6rem 0;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.hero-content {
+		z-index: 2;
+		position: relative;
+	}
+
+	.hero-badge {
+		display: inline-block;
+		background: var(--gradient-primary);
+		color: var(--white);
+		padding: 0.5rem 1.5rem;
+		border-radius: 50px;
+		font-size: 0.875rem;
+		font-weight: 600;
+		margin-bottom: 1.5rem;
+		box-shadow: var(--shadow);
+	}
+
+	.hero-title {
+		font-size: 3.5rem;
+		font-weight: 800;
+		line-height: 1.1;
+		margin-bottom: 1.5rem;
+		color: var(--dark);
+	}
+
+	.hero-title-accent {
+		background: var(--gradient-primary);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+	}
+
+	.hero-description {
+		font-size: 1.25rem;
+		color: var(--gray);
+		margin-bottom: 2.5rem;
+		line-height: 1.7;
+	}
+
+	.hero-buttons {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	/* Custom Buttons */
+	.btn-primary-custom {
+		background: var(--gradient-primary);
+		color: var(--white);
+		padding: 1rem 2rem;
+		border-radius: 50px;
+		text-decoration: none;
+		font-weight: 600;
+		display: inline-flex;
+		align-items: center;
+		transition: all 0.3s ease;
+		box-shadow: var(--shadow);
+		border: none;
+	}
+
+	.btn-primary-custom:hover {
+		transform: translateY(-2px);
+		box-shadow: var(--shadow-hover);
+		color: var(--white);
+		text-decoration: none;
+	}
+
+	.btn-secondary-custom {
+		background: var(--white);
+		color: var(--primary);
+		padding: 1rem 2rem;
+		border-radius: 50px;
+		text-decoration: none;
+		font-weight: 600;
+		display: inline-flex;
+		align-items: center;
+		transition: all 0.3s ease;
+		border: 2px solid var(--primary);
+	}
+
+	.btn-secondary-custom:hover {
+		background: var(--primary);
+		color: var(--white);
+		transform: translateY(-2px);
+		text-decoration: none;
+	}
+
+	/* Hero Visual */
+	.hero-visual {
+		position: relative;
+		height: 500px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.hero-circle {
+		position: absolute;
+		border-radius: 50%;
+		opacity: 0.1;
+		animation: float 6s ease-in-out infinite;
+	}
+
+	.hero-circle-1 {
+		width: 300px;
+		height: 300px;
+		background: var(--gradient-primary);
+		top: 20%;
+		right: 10%;
+		animation-delay: 0s;
+	}
+
+	.hero-circle-2 {
+		width: 200px;
+		height: 200px;
+		background: var(--accent);
+		top: 60%;
+		right: 30%;
+		animation-delay: 2s;
+	}
+
+	.hero-circle-3 {
+		width: 150px;
+		height: 150px;
+		background: var(--primary);
+		top: 10%;
+		right: 50%;
+		animation-delay: 4s;
+	}
+
+	.hero-stats {
+		display: flex;
+		gap: 2rem;
+		z-index: 2;
+		position: relative;
+	}
+
+	.stat-card {
+		background: var(--white);
+		padding: 2rem;
+		border-radius: 20px;
+		text-align: center;
+		box-shadow: var(--shadow);
+		backdrop-filter: blur(10px);
+	}
+
+	.stat-card h3 {
+		font-size: 2rem;
+		font-weight: 800;
+		color: var(--primary);
+		margin-bottom: 0.5rem;
+	}
+
+	.stat-card p {
+		color: var(--gray);
+		font-size: 0.875rem;
+		margin: 0;
+	}
+
+	/* Incentives Section */
+	.incentives-section {
+		padding: 5rem 0;
+		background: var(--white);
+	}
+
+	/* Products Section */
+	.products-section {
+		padding: 5rem 0;
+		background: var(--light-gray);
+	}
+
+	.section-header {
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+
+	.section-title {
+		font-size: 2.5rem;
+		font-weight: 800;
+		color: var(--dark);
+		margin-bottom: 1rem;
+	}
+
+	.section-description {
+		font-size: 1.125rem;
+		color: var(--gray);
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.products-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 2rem;
+		margin-bottom: 3rem;
+	}
+
+	.product-item {
+		transition: transform 0.3s ease;
+	}
+
+	.product-item:hover {
+		transform: translateY(-5px);
+	}
+
+	.products-cta {
+		text-align: center;
+	}
+
+	/* Stats Section */
+	.stats-section {
+		padding: 5rem 0;
+		background: var(--white);
+	}
+
+	.stats-card {
+		background: var(--gradient-primary);
+		border-radius: 30px;
+		padding: 4rem 2rem;
+		box-shadow: var(--shadow-hover);
+	}
+
+	.stats-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 2rem;
+		text-align: center;
+	}
+
+	.stat-item {
+		color: var(--white);
+	}
+
+	.stat-number {
+		font-size: 2.5rem;
+		font-weight: 800;
+		margin-bottom: 0.5rem;
+	}
+
+	.stat-label {
+		font-size: 1rem;
+		opacity: 0.9;
+		margin: 0;
+	}
+
+	/* Animations */
+	@keyframes float {
+		0%, 100% {
+			transform: translateY(0px);
+		}
+		50% {
+			transform: translateY(-20px);
+		}
+	}
+
+	/* Responsive Design */
+	@media (max-width: 768px) {
+		.hero-title {
+			font-size: 2.5rem;
+		}
+
+		.hero-description {
+			font-size: 1.125rem;
+		}
+
+		.hero-buttons {
+			justify-content: center;
+		}
+
+		.hero-visual {
+			height: 300px;
+			margin-top: 3rem;
+		}
+
+		.hero-stats {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.hero-circle-1 {
+			width: 200px;
+			height: 200px;
+		}
+
+		.hero-circle-2 {
+			width: 150px;
+			height: 150px;
+		}
+
+		.hero-circle-3 {
+			width: 100px;
+			height: 100px;
+		}
+
+		.section-title {
+			font-size: 2rem;
+		}
+
+		.products-grid {
+			grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		}
+
+		.stats-grid {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	/* Utilities */
+	.shadow-xl {
+		box-shadow: var(--shadow-hover);
+	}
+
+	.object-fit-cover {
+		object-fit: cover;
+	}
+
+	.z-index-2 {
+		z-index: 2;
+	}
+</style>

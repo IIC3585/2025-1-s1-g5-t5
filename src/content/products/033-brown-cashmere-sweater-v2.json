@@ -1,0 +1,71 @@
+{
+  "id": "33",
+  "thumb_src": "/images/suit-2.jpg",
+  "thumb_alt": "Cashmere Sweater Brown",
+  "title": "Brown Cashmere Sweater V2",
+  "description": "Premium cashmere sweater crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our brown cashmere sweater. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 245,
+  "color": "Brown",
+  "colors": [
+    "brown",
+    "black",
+    "white"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Business",
+  "brand": "Urban Fashion",
+  "rating": 4,
+  "reviews": 94,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 6,
+    "S": 6,
+    "M": 16,
+    "L": 12,
+    "XL": 4
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1513884503?w=800&q=80",
+      "alt": "Cashmere Sweater front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1557471153?w=800&q=80",
+      "alt": "Cashmere Sweater side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this cashmere sweater represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium cashmere sweater with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Urban Fashion",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "brown",
+    "formal-wear",
+    "business",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

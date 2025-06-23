@@ -1,0 +1,73 @@
+{
+  "id": "12",
+  "thumb_src": "/images/suit-2.jpg",
+  "thumb_alt": "Party Dress Navy",
+  "title": "Navy Party Dress",
+  "description": "Premium party dress crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our navy party dress. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 211,
+  "color": "Navy",
+  "colors": [
+    "navy",
+    "black",
+    "white"
+  ],
+  "category": "Dresses",
+  "subcategory": "Evening",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 100,
+  "stock": true,
+  "size": "XS",
+  "sizes": {
+    "XS": 1,
+    "S": 4,
+    "M": 17,
+    "L": 3,
+    "XL": 5
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1531371051?w=800&q=80",
+      "alt": "Party Dress front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1562394694?w=800&q=80",
+      "alt": "Party Dress side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this party dress represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium party dress with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "navy",
+    "dresses",
+    "evening",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 22,
+  "salePrice": 165
+}

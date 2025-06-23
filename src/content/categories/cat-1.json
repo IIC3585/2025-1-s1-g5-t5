@@ -1,0 +1,9 @@
+{
+  "id": "cat-1",
+  "title": "Silk Dresses",
+  "description": "Discover our amazing silk dresses collection",
+  "thumb_src": "/images/category1.jpg",
+  "collection": "Pre-fall",
+  "featured": true,
+  "productCount": 14
+}

@@ -1,0 +1,69 @@
+{
+  "id": "05",
+  "thumb_src": "/images/product1.jpg",
+  "thumb_alt": "Classic Blazer Gray",
+  "title": "Gray Classic Blazer",
+  "description": "Premium classic blazer crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our gray classic blazer. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 280,
+  "color": "Gray",
+  "colors": [
+    "gray"
+  ],
+  "category": "Suits",
+  "subcategory": "Spring",
+  "brand": "Elite Choice",
+  "rating": 5,
+  "reviews": 179,
+  "stock": true,
+  "size": "XS",
+  "sizes": {
+    "XS": 2,
+    "S": 4,
+    "M": 14,
+    "L": 14,
+    "XL": 1
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1594514073?w=800&q=80",
+      "alt": "Classic Blazer front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1587619330?w=800&q=80",
+      "alt": "Classic Blazer side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 3 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this classic blazer represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium classic blazer with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "gray",
+    "suits",
+    "spring",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

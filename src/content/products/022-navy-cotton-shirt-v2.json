@@ -1,0 +1,71 @@
+{
+  "id": "22",
+  "thumb_src": "/images/suit-1.jpg",
+  "thumb_alt": "Cotton Shirt Navy",
+  "title": "Navy Cotton Shirt V2",
+  "description": "Premium cotton shirt crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our navy cotton shirt. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 125,
+  "color": "Navy",
+  "colors": [
+    "navy"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Summer",
+  "brand": "Premium Collection",
+  "rating": 4,
+  "reviews": 176,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 1,
+    "S": 4,
+    "M": 15,
+    "L": 8,
+    "XL": 7
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1594260439?w=800&q=80",
+      "alt": "Cotton Shirt front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1509500874?w=800&q=80",
+      "alt": "Cotton Shirt side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this cotton shirt represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium cotton shirt with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Premium Collection",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "navy",
+    "casual-wear",
+    "summer",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 10,
+  "salePrice": 113
+}

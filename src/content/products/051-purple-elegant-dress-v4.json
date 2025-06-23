@@ -1,0 +1,70 @@
+{
+  "id": "51",
+  "thumb_src": "/images/product5.jpg",
+  "thumb_alt": "Elegant Dress Purple",
+  "title": "Purple Elegant Dress V4",
+  "description": "Premium elegant dress crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our purple elegant dress. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 245,
+  "color": "Purple",
+  "colors": [
+    "purple",
+    "black"
+  ],
+  "category": "Dresses",
+  "subcategory": "Fall",
+  "brand": "Designer Select",
+  "rating": 4,
+  "reviews": 225,
+  "stock": true,
+  "size": "S",
+  "sizes": {
+    "XS": 8,
+    "S": 10,
+    "M": 1,
+    "L": 10,
+    "XL": 2
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1510160035?w=800&q=80",
+      "alt": "Elegant Dress front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1591035780?w=800&q=80",
+      "alt": "Elegant Dress side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 6 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this elegant dress represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium elegant dress with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Designer Select",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "purple",
+    "dresses",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

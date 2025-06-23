@@ -1,0 +1,69 @@
+{
+  "id": "10",
+  "thumb_src": "/images/suit-1.jpg",
+  "thumb_alt": "Summer Top Blue",
+  "title": "Blue Summer Top",
+  "description": "Premium summer top crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our blue summer top. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 45,
+  "color": "Blue",
+  "colors": [
+    "blue"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Summer",
+  "brand": "Elite Choice",
+  "rating": 5,
+  "reviews": 247,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 2,
+    "S": 1,
+    "M": 3,
+    "L": 5,
+    "XL": 2
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1568297931?w=800&q=80",
+      "alt": "Summer Top front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1502316032?w=800&q=80",
+      "alt": "Summer Top side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 6 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this summer top represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium summer top with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "blue",
+    "casual-wear",
+    "summer",
+    "premium",
+    "fashion"
+  ],
+  "featured": true
+}

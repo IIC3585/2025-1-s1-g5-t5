@@ -1,0 +1,73 @@
+{
+  "id": "40",
+  "thumb_src": "/images/suit-1.jpg",
+  "thumb_alt": "Summer Top Purple",
+  "title": "Purple Summer Top V3",
+  "description": "Premium summer top crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our purple summer top. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 40,
+  "color": "Purple",
+  "colors": [
+    "purple",
+    "black",
+    "white"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Casual",
+  "brand": "Modern Style",
+  "rating": 4,
+  "reviews": 244,
+  "stock": false,
+  "size": "XL",
+  "sizes": {
+    "XS": 6,
+    "S": 9,
+    "M": 8,
+    "L": 11,
+    "XL": 1
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1521864805?w=800&q=80",
+      "alt": "Summer Top front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1587394389?w=800&q=80",
+      "alt": "Summer Top side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 4 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this summer top represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium summer top with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Modern Style",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "purple",
+    "casual-wear",
+    "casual",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 13,
+  "salePrice": 35
+}

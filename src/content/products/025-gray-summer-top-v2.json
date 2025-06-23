@@ -1,0 +1,70 @@
+{
+  "id": "25",
+  "thumb_src": "/images/suit-2.jpg",
+  "thumb_alt": "Summer Top Gray",
+  "title": "Gray Summer Top V2",
+  "description": "Premium summer top crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our gray summer top. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 93,
+  "color": "Gray",
+  "colors": [
+    "gray",
+    "black"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Fall",
+  "brand": "Urban Fashion",
+  "rating": 4,
+  "reviews": 188,
+  "stock": true,
+  "size": "S",
+  "sizes": {
+    "XS": 4,
+    "S": 5,
+    "M": 7,
+    "L": 0,
+    "XL": 1
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1532496421?w=800&q=80",
+      "alt": "Summer Top front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1557173048?w=800&q=80",
+      "alt": "Summer Top side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 3 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this summer top represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium summer top with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Urban Fashion",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "gray",
+    "casual-wear",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

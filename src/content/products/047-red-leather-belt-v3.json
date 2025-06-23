@@ -1,0 +1,73 @@
+{
+  "id": "47",
+  "thumb_src": "/images/product7.jpg",
+  "thumb_alt": "Leather Belt Red",
+  "title": "Red Leather Belt V3",
+  "description": "Premium leather belt crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our red leather belt. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 1,
+  "color": "Red",
+  "colors": [
+    "red",
+    "black",
+    "white"
+  ],
+  "category": "Accessories",
+  "subcategory": "Summer",
+  "brand": "Premium Collection",
+  "rating": 5,
+  "reviews": 157,
+  "stock": true,
+  "size": "XS",
+  "sizes": {
+    "XS": 2,
+    "S": 9,
+    "M": 16,
+    "L": 0,
+    "XL": 5
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1514310439?w=800&q=80",
+      "alt": "Leather Belt front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1553919817?w=800&q=80",
+      "alt": "Leather Belt side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 7 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this leather belt represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium leather belt with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Premium Collection",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "red",
+    "accessories",
+    "summer",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 15,
+  "salePrice": 1
+}

@@ -1,0 +1,69 @@
+{
+  "id": "35",
+  "thumb_src": "/images/product7.jpg",
+  "thumb_alt": "Classic Blazer Brown",
+  "title": "Brown Classic Blazer V3",
+  "description": "Premium classic blazer crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our brown classic blazer. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 252,
+  "color": "Brown",
+  "colors": [
+    "brown"
+  ],
+  "category": "Suits",
+  "subcategory": "Party",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 226,
+  "stock": false,
+  "size": "L",
+  "sizes": {
+    "XS": 7,
+    "S": 7,
+    "M": 12,
+    "L": 6,
+    "XL": 4
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1580916331?w=800&q=80",
+      "alt": "Classic Blazer front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1556034078?w=800&q=80",
+      "alt": "Classic Blazer side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 6 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this classic blazer represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium classic blazer with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "brown",
+    "suits",
+    "party",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

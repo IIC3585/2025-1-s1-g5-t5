@@ -1,0 +1,71 @@
+{
+  "id": "41",
+  "thumb_src": "/images/product12.jpg",
+  "thumb_alt": "Winter Coat Gray",
+  "title": "Gray Winter Coat V3",
+  "description": "Premium winter coat crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our gray winter coat. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 402,
+  "color": "Gray",
+  "colors": [
+    "gray",
+    "black",
+    "white"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Casual",
+  "brand": "Premium Collection",
+  "rating": 5,
+  "reviews": 140,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 0,
+    "S": 7,
+    "M": 0,
+    "L": 6,
+    "XL": 7
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1516691917?w=800&q=80",
+      "alt": "Winter Coat front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1599902714?w=800&q=80",
+      "alt": "Winter Coat side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 4 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this winter coat represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium winter coat with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Premium Collection",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "gray",
+    "formal-wear",
+    "casual",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

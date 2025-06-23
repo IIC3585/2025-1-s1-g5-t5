@@ -1,0 +1,71 @@
+{
+  "id": "50",
+  "thumb_src": "/images/product3.jpg",
+  "thumb_alt": "Classic Blazer Gray",
+  "title": "Gray Classic Blazer V4",
+  "description": "Premium classic blazer crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our gray classic blazer. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 347,
+  "color": "Gray",
+  "colors": [
+    "gray",
+    "black",
+    "white"
+  ],
+  "category": "Suits",
+  "subcategory": "Summer",
+  "brand": "Elite Choice",
+  "rating": 5,
+  "reviews": 243,
+  "stock": false,
+  "size": "XS",
+  "sizes": {
+    "XS": 7,
+    "S": 9,
+    "M": 8,
+    "L": 13,
+    "XL": 7
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1571351392?w=800&q=80",
+      "alt": "Classic Blazer front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1517379740?w=800&q=80",
+      "alt": "Classic Blazer side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 7 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this classic blazer represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium classic blazer with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "gray",
+    "suits",
+    "summer",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

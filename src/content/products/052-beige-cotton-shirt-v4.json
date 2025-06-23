@@ -1,0 +1,70 @@
+{
+  "id": "52",
+  "thumb_src": "/images/product7.jpg",
+  "thumb_alt": "Cotton Shirt Beige",
+  "title": "Beige Cotton Shirt V4",
+  "description": "Premium cotton shirt crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our beige cotton shirt. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 117,
+  "color": "Beige",
+  "colors": [
+    "beige",
+    "black"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Summer",
+  "brand": "Elite Choice",
+  "rating": 4,
+  "reviews": 86,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 6,
+    "S": 11,
+    "M": 13,
+    "L": 10,
+    "XL": 7
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1559427303?w=800&q=80",
+      "alt": "Cotton Shirt front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1533410530?w=800&q=80",
+      "alt": "Cotton Shirt side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 7 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this cotton shirt represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium cotton shirt with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "beige",
+    "casual-wear",
+    "summer",
+    "premium",
+    "fashion"
+  ],
+  "featured": true
+}

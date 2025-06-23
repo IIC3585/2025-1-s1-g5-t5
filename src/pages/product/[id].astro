@@ -1,0 +1,110 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import '../../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../../components/navbar';
+import CardProduct from '../../components/products/cardProduct';
+import ProductOverviewGrid from '../../components/products/productOverviewGrid';
+import StoreDoubleColumn from '../../components/store/storeDoubleColumn';
+import ReviewSummaryChart from '../../components/reviews/reviewSummaryChart';
+
+// Generate static paths for all products
+export async function getStaticPaths() {
+  const allProducts = await getCollection('products');
+  return allProducts.map(product => ({
+    params: { id: product.data.id },
+    props: { product: product.data }
+  }));
+}
+
+// Get the product from props
+const { product: mainProduct } = Astro.props;
+
+// Fetch all products for the "Customers also purchased" section
+const allProducts = await getCollection('products');
+const products = allProducts.map(product => product.data);
+
+// Convert sizes object to Map for ProductOverviewGrid compatibility
+const sizesMap = new Map(Object.entries(mainProduct.sizes || {}));
+
+// Debug logs
+console.log('🔍 Product ID from route:', mainProduct.id);
+console.log('🔍 Available product IDs:', products.map(p => p.id));
+
+// Mock reviews data for the main product (normally this would come from a reviews collection)
+const productReviews = [
+  {
+    productID: mainProduct.id,
+    rating: 5,
+    comment: "Excellent quality and fit!",
+    author: "John D.",
+    date: "2024-01-15"
+  },
+  {
+    productID: mainProduct.id,
+    rating: 4,
+    comment: "Good value for money",
+    author: "Sarah M.",
+    date: "2024-01-10"
+  }
+];
+---
+
+<Layout title={`${mainProduct.title} - E-Store`}>
+	<main>
+    <Navbar client:load />
+    <div class="container mt-5">
+      <ProductOverviewGrid  
+        client:load
+        id={mainProduct.id}
+        colors={mainProduct.colors}
+        images={mainProduct.images}
+        title={mainProduct.title}
+        full_description={mainProduct.full_description}
+        price={mainProduct.price}
+        highlights={mainProduct.highlights}
+        details={mainProduct.details}
+        rating={mainProduct.rating}
+        reviews={mainProduct.reviews}
+        sizes={sizesMap}
+        salePrice={mainProduct.salePrice}
+        discount={mainProduct.discount}
+        thumb_src={mainProduct.thumb_src}
+        thumb_alt={mainProduct.thumb_alt || mainProduct.title}
+        color={mainProduct.color}
+        description={mainProduct.description}
+        stock={mainProduct.stock}
+        category={mainProduct.category}
+      />    
+
+      <div class="my-5">
+        <ReviewSummaryChart client:load reviews={productReviews}/>
+      </div>
+
+      <div class="row">
+        <h5 class="mb-4">Customers also purchased</h5>
+        {products.slice(1, 5).map((product, index) => 
+          <div class="col-md-6 col-lg-3" key={product.id}>
+            <CardProduct 
+              client:load
+              id={product.id}
+              thumb_src={product.thumb_src}
+              thumb_alt={product.thumb_alt || product.title}
+              color={product.color}
+              title={product.title}
+              description={product.description}
+              price={product.price}
+              colors={product.colors}
+              position="left"
+              stock={product.stock}
+              category={product.category}
+              rating={product.rating}
+            />
+          </div>
+        )}        
+      </div>
+      <hr class="dark horizontal my-5" />
+      <StoreDoubleColumn />
+    </div>
+  </main>
+</Layout> 
