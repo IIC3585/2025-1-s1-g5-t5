@@ -1,0 +1,71 @@
+{
+  "id": "48",
+  "thumb_src": "/images/product9.jpg",
+  "thumb_alt": "Cashmere Sweater Brown",
+  "title": "Brown Cashmere Sweater V3",
+  "description": "Premium cashmere sweater crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our brown cashmere sweater. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 193,
+  "color": "Brown",
+  "colors": [
+    "brown",
+    "black",
+    "white"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Casual",
+  "brand": "Elite Choice",
+  "rating": 4,
+  "reviews": 205,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 9,
+    "S": 0,
+    "M": 10,
+    "L": 9,
+    "XL": 1
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1549223673?w=800&q=80",
+      "alt": "Cashmere Sweater front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1506605463?w=800&q=80",
+      "alt": "Cashmere Sweater side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 4 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this cashmere sweater represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium cashmere sweater with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "brown",
+    "formal-wear",
+    "casual",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

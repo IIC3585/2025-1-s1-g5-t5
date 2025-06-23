@@ -1,0 +1,70 @@
+{
+  "id": "34",
+  "thumb_src": "/images/product12.jpg",
+  "thumb_alt": "Sport Jacket Blue",
+  "title": "Blue Sport Jacket V2",
+  "description": "Premium sport jacket crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our blue sport jacket. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 176,
+  "color": "Blue",
+  "colors": [
+    "blue",
+    "black"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Spring",
+  "brand": "Premium Collection",
+  "rating": 5,
+  "reviews": 109,
+  "stock": true,
+  "size": "S",
+  "sizes": {
+    "XS": 3,
+    "S": 2,
+    "M": 4,
+    "L": 12,
+    "XL": 0
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1519989526?w=800&q=80",
+      "alt": "Sport Jacket front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1534014719?w=800&q=80",
+      "alt": "Sport Jacket side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 4 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this sport jacket represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium sport jacket with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Premium Collection",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "blue",
+    "casual-wear",
+    "spring",
+    "premium",
+    "fashion"
+  ],
+  "featured": true
+}

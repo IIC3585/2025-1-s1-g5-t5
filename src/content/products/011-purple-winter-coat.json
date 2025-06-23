@@ -1,0 +1,72 @@
+{
+  "id": "11",
+  "thumb_src": "/images/suit-1.jpg",
+  "thumb_alt": "Winter Coat Purple",
+  "title": "Purple Winter Coat",
+  "description": "Premium winter coat crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our purple winter coat. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 396,
+  "color": "Purple",
+  "colors": [
+    "purple",
+    "black"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Fall",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 219,
+  "stock": true,
+  "size": "XS",
+  "sizes": {
+    "XS": 4,
+    "S": 12,
+    "M": 0,
+    "L": 14,
+    "XL": 3
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1535521674?w=800&q=80",
+      "alt": "Winter Coat front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1590030502?w=800&q=80",
+      "alt": "Winter Coat side view"
+    }
+  ],
+  "features": [
+    "Premium quality fabric",
+    "Comfortable fit",
+    "Machine washable",
+    "Wrinkle resistant"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 7 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this winter coat represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium winter coat with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "purple",
+    "formal-wear",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 10,
+  "salePrice": 356
+}

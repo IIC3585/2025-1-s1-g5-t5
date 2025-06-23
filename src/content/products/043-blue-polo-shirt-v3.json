@@ -1,0 +1,73 @@
+{
+  "id": "43",
+  "thumb_src": "/images/product4.jpg",
+  "thumb_alt": "Polo Shirt Blue",
+  "title": "Blue Polo Shirt V3",
+  "description": "Premium polo shirt crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our blue polo shirt. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 54,
+  "color": "Blue",
+  "colors": [
+    "blue",
+    "black",
+    "white"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Party",
+  "brand": "Classic Line",
+  "rating": 4,
+  "reviews": 89,
+  "stock": true,
+  "size": "S",
+  "sizes": {
+    "XS": 8,
+    "S": 13,
+    "M": 18,
+    "L": 9,
+    "XL": 0
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1537085579?w=800&q=80",
+      "alt": "Polo Shirt front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1508755247?w=800&q=80",
+      "alt": "Polo Shirt side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 5 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this polo shirt represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium polo shirt with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "blue",
+    "casual-wear",
+    "party",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 24,
+  "salePrice": 41
+}

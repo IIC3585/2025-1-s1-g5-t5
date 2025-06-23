@@ -1,0 +1,70 @@
+{
+  "id": "14",
+  "thumb_src": "/images/product2.jpg",
+  "thumb_alt": "Formal Jacket White",
+  "title": "White Formal Jacket",
+  "description": "Premium formal jacket crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our white formal jacket. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 184,
+  "color": "White",
+  "colors": [
+    "white",
+    "black"
+  ],
+  "category": "Suits",
+  "subcategory": "Summer",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 137,
+  "stock": false,
+  "size": "XS",
+  "sizes": {
+    "XS": 2,
+    "S": 6,
+    "M": 4,
+    "L": 9,
+    "XL": 3
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1508258829?w=800&q=80",
+      "alt": "Formal Jacket front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1569407319?w=800&q=80",
+      "alt": "Formal Jacket side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 3 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this formal jacket represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium formal jacket with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "white",
+    "suits",
+    "summer",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

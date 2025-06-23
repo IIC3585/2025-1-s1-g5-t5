@@ -1,0 +1,74 @@
+{
+  "id": "02",
+  "thumb_src": "/images/suit-1.jpg",
+  "thumb_alt": "watch-image",
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+      "alt": "first_image"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+      "alt": "second_image"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1508296695146-257a814070b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
+      "alt": "third_image"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1522125123931-9304d91a42ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+      "alt": "fourth_image"
+    }
+  ],
+  "color": "Black",
+  "colors": [
+    "black",
+    "green",
+    "white"
+  ],
+  "title": "Pink Blouse",
+  "price": 1490,
+  "rating": 5,
+  "reviews": 117,
+  "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
+  "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
+  "features": [
+    "Multiple strap configuration",
+    "Water Resistant",
+    "Stainless strap loops",
+    "Ultra-soft 100% cotton"
+  ],
+  "size": "Medium",
+  "sizes": {
+    "XS": 3,
+    "S": 0,
+    "M": 1,
+    "L": 0,
+    "XL": 6
+  },
+  "data": {
+    "Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
+    "Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
+    "Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
+    "Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Good Goods, Inc.",
+    "Material": "Solid walnut base with rare earth magnets and powder coated steel card cover",
+    "Dimensions": "6.25 x 3.55' x 1.15'",
+    "Finish": "Hand sanded and finished with natural oil",
+    "Includes": "Wood card tray and 3 refill packs",
+    "Considerations": "Made from natural materials. Grain and color vary with each item."
+  },
+  "stock": false,
+  "category": "Accessories",
+  "subcategory": "Evening",
+  "brand": "Luxury Series",
+  "tags": [
+    "Black",
+    "premium",
+    "fashion",
+    "trending"
+  ],
+  "featured": true
+}

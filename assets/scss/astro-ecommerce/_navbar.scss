@@ -4,13 +4,25 @@
   .navbar-brand {
     color: $slate-800;
     line-height: 1rem;
+    transition: color 0.3s ease;
+    
+    &:hover {
+      color: $primary !important;
+    }
   }
+  
   .nav-link {
     color: $navbar-nav-link-color;
     padding: $navbar-nav-link-padding;
     font-weight: $font-weight-semibold;
     font-size: $font-size-sm;
     line-height: 1rem;
+    transition: all 0.3s ease;
+    
+    &:hover {
+      color: $primary !important;
+      transform: translateY(-1px);
+    }
   }
 
   &.navbar-absolute {
@@ -24,7 +36,6 @@
       &, i {
         color: $white;
       }
-
 
       &:hover,
       &:focus {
@@ -53,7 +64,14 @@
         color: $white !important;
       }
     }
+    
+    .nav-link {
+      &:hover {
+        color: $primary !important;
+      }
+    }
   }
+  
   .sidenav-toggler-inner{
     width: $sidenav-toggler-width;
     .sidenav-toggler-line{
@@ -128,6 +146,78 @@
         margin-top: $navbar-toggler-bar-3-margin-top;
       }
     }
+  }
+}
+
+// Dropdown improvements
+.dropdown-menu {
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  animation: fadeInDown 0.3s ease;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Search styling
+.navbar {
+  .input-group {
+    .form-control {
+      &:focus {
+        border-color: $primary;
+        box-shadow: none;
+      }
+      
+      &.border-end-0:focus {
+        border-right-color: transparent;
+      }
+    }
+    
+    .btn-outline-secondary {
+      color: #6c757d;
+      border-color: #ced4da;
+      
+      &:hover, &:focus {
+        background-color: $primary;
+        border-color: $primary;
+        color: white;
+      }
+      
+      &.border-start-0 {
+        border-left-color: transparent;
+        
+        &:focus {
+          border-left-color: $primary;
+        }
+      }
+    }
+  }
+}
+
+// Search button styling
+.btn-outline-primary {
+  border-color: $primary;
+  color: $primary;
+  
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
+
+.btn-outline-light {
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -214,3 +304,5 @@
     }
   }
 }
+
+

@@ -1,0 +1,69 @@
+{
+  "id": "26",
+  "thumb_src": "/images/product1.jpg",
+  "thumb_alt": "Winter Coat Red",
+  "title": "Red Winter Coat V2",
+  "description": "Premium winter coat crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our red winter coat. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 372,
+  "color": "Red",
+  "colors": [
+    "red"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Fall",
+  "brand": "Classic Line",
+  "rating": 4,
+  "reviews": 214,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 5,
+    "S": 5,
+    "M": 13,
+    "L": 9,
+    "XL": 6
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1573871776?w=800&q=80",
+      "alt": "Winter Coat front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1581278798?w=800&q=80",
+      "alt": "Winter Coat side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 4 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this winter coat represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium winter coat with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "red",
+    "formal-wear",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

@@ -1,0 +1,9 @@
+{
+  "id": "cat-4",
+  "title": "Showroom",
+  "description": "Discover our amazing showroom collection",
+  "thumb_src": "/images/category4.jpg",
+  "collection": "Sale",
+  "featured": false,
+  "productCount": 13
+}

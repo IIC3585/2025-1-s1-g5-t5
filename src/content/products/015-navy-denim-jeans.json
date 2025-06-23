@@ -1,0 +1,69 @@
+{
+  "id": "15",
+  "thumb_src": "/images/product6.jpg",
+  "thumb_alt": "Denim Jeans Navy",
+  "title": "Navy Denim Jeans",
+  "description": "Premium denim jeans crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our navy denim jeans. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 143,
+  "color": "Navy",
+  "colors": [
+    "navy"
+  ],
+  "category": "Casual Wear",
+  "subcategory": "Casual",
+  "brand": "Elite Choice",
+  "rating": 5,
+  "reviews": 85,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 0,
+    "S": 8,
+    "M": 6,
+    "L": 7,
+    "XL": 7
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1537225412?w=800&q=80",
+      "alt": "Denim Jeans front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1519468565?w=800&q=80",
+      "alt": "Denim Jeans side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 4 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this denim jeans represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium denim jeans with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "navy",
+    "casual-wear",
+    "casual",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

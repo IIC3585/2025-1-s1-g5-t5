@@ -1,0 +1,70 @@
+{
+  "id": "39",
+  "thumb_src": "/images/suit-6.jpg",
+  "thumb_alt": "Silk Scarf Green",
+  "title": "Green Silk Scarf V3",
+  "description": "Premium silk scarf crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our green silk scarf. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 80,
+  "color": "Green",
+  "colors": [
+    "green",
+    "black"
+  ],
+  "category": "Accessories",
+  "subcategory": "Winter",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 81,
+  "stock": true,
+  "size": "XS",
+  "sizes": {
+    "XS": 3,
+    "S": 11,
+    "M": 4,
+    "L": 2,
+    "XL": 3
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1538694167?w=800&q=80",
+      "alt": "Silk Scarf front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1577884411?w=800&q=80",
+      "alt": "Silk Scarf side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 4 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this silk scarf represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium silk scarf with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "green",
+    "accessories",
+    "winter",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

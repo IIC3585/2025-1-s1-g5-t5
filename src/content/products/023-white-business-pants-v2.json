@@ -1,0 +1,71 @@
+{
+  "id": "23",
+  "thumb_src": "/images/suit-6.jpg",
+  "thumb_alt": "Business Pants White",
+  "title": "White Business Pants V2",
+  "description": "Premium business pants crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our white business pants. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 82,
+  "color": "White",
+  "colors": [
+    "white",
+    "black",
+    "white"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Party",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 168,
+  "stock": true,
+  "size": "S",
+  "sizes": {
+    "XS": 9,
+    "S": 1,
+    "M": 0,
+    "L": 13,
+    "XL": 1
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1517828176?w=800&q=80",
+      "alt": "Business Pants front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1571113378?w=800&q=80",
+      "alt": "Business Pants side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 6 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this business pants represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium business pants with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "white",
+    "formal-wear",
+    "party",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

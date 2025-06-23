@@ -1,0 +1,30 @@
+{
+  "id": "04",
+  "thumb_src": "/images/suit-5.jpg",
+  "thumb_alt": "iPhone_thumb",
+  "color": "Blue",
+  "title": "iPhone",
+  "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
+  "price": 1599,
+  "size": "Small",
+  "sizes": {
+    "XS": 3,
+    "S": 0,
+    "M": 1,
+    "L": 0,
+    "XL": 6
+  },
+  "stock": false,
+  "category": "Formal Wear",
+  "subcategory": "Party",
+  "brand": "Classic Line",
+  "tags": [
+    "Blue",
+    "premium",
+    "fashion",
+    "trending"
+  ],
+  "featured": false,
+  "discount": 8,
+  "salePrice": 1471
+}

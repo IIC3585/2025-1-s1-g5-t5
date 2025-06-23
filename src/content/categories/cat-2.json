@@ -1,0 +1,9 @@
+{
+  "id": "cat-2",
+  "title": "Suits",
+  "description": "Discover our amazing suits collection",
+  "thumb_src": "/images/category2.jpg",
+  "collection": "Designers",
+  "featured": true,
+  "productCount": 5
+}

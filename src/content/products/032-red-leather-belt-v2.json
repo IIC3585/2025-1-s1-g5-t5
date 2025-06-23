@@ -1,0 +1,71 @@
+{
+  "id": "32",
+  "thumb_src": "/images/product2.jpg",
+  "thumb_alt": "Leather Belt Red",
+  "title": "Red Leather Belt V2",
+  "description": "Premium leather belt crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our red leather belt. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 94,
+  "color": "Red",
+  "colors": [
+    "red",
+    "black",
+    "white"
+  ],
+  "category": "Accessories",
+  "subcategory": "Party",
+  "brand": "Classic Line",
+  "rating": 5,
+  "reviews": 189,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 5,
+    "S": 1,
+    "M": 12,
+    "L": 14,
+    "XL": 9
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1520788457?w=800&q=80",
+      "alt": "Leather Belt front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1580450809?w=800&q=80",
+      "alt": "Leather Belt side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium sustainable materials",
+    "Available in 5 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this leather belt represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium leather belt with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "red",
+    "accessories",
+    "party",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

@@ -1,0 +1,72 @@
+{
+  "id": "54",
+  "thumb_src": "/images/product2.jpg",
+  "thumb_alt": "Silk Scarf White",
+  "title": "White Silk Scarf V4",
+  "description": "Premium silk scarf crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our white silk scarf. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 78,
+  "color": "White",
+  "colors": [
+    "white",
+    "black"
+  ],
+  "category": "Accessories",
+  "subcategory": "Spring",
+  "brand": "Premium Collection",
+  "rating": 4,
+  "reviews": 241,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 8,
+    "S": 6,
+    "M": 1,
+    "L": 5,
+    "XL": 6
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1585026396?w=800&q=80",
+      "alt": "Silk Scarf front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1595234329?w=800&q=80",
+      "alt": "Silk Scarf side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 4 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this silk scarf represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium silk scarf with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Premium Collection",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "white",
+    "accessories",
+    "spring",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 12,
+  "salePrice": 69
+}

@@ -1,0 +1,69 @@
+{
+  "id": "09",
+  "thumb_src": "/images/product7.jpg",
+  "thumb_alt": "Silk Scarf Gray",
+  "title": "Gray Silk Scarf",
+  "description": "Premium silk scarf crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our gray silk scarf. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 88,
+  "color": "Gray",
+  "colors": [
+    "gray"
+  ],
+  "category": "Accessories",
+  "subcategory": "Business",
+  "brand": "Elite Choice",
+  "rating": 5,
+  "reviews": 210,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 4,
+    "S": 3,
+    "M": 14,
+    "L": 11,
+    "XL": 5
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1592160175?w=800&q=80",
+      "alt": "Silk Scarf front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1550208031?w=800&q=80",
+      "alt": "Silk Scarf side view"
+    }
+  ],
+  "features": [
+    "Breathable material",
+    "Stain resistant",
+    "UV protection",
+    "Quick dry"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 4 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this silk scarf represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium silk scarf with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "gray",
+    "accessories",
+    "business",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

@@ -1,0 +1,70 @@
+{
+  "id": "16",
+  "thumb_src": "/images/product4.jpg",
+  "thumb_alt": "Evening Gown Blue",
+  "title": "Blue Evening Gown",
+  "description": "Premium evening gown crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our blue evening gown. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 457,
+  "color": "Blue",
+  "colors": [
+    "blue",
+    "black"
+  ],
+  "category": "Dresses",
+  "subcategory": "Evening",
+  "brand": "Classic Line",
+  "rating": 4,
+  "reviews": 222,
+  "stock": false,
+  "size": "M",
+  "sizes": {
+    "XS": 1,
+    "S": 10,
+    "M": 16,
+    "L": 9,
+    "XL": 6
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1540000109?w=800&q=80",
+      "alt": "Evening Gown front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1506216702?w=800&q=80",
+      "alt": "Evening Gown side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 6 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this evening gown represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium evening gown with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Classic Line",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "blue",
+    "dresses",
+    "evening",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

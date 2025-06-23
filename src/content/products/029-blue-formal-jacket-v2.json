@@ -1,0 +1,73 @@
+{
+  "id": "29",
+  "thumb_src": "/images/product11.jpg",
+  "thumb_alt": "Formal Jacket Blue",
+  "title": "Blue Formal Jacket V2",
+  "description": "Premium formal jacket crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our blue formal jacket. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 174,
+  "color": "Blue",
+  "colors": [
+    "blue",
+    "black",
+    "white"
+  ],
+  "category": "Suits",
+  "subcategory": "Fall",
+  "brand": "Elite Choice",
+  "rating": 4,
+  "reviews": 176,
+  "stock": false,
+  "size": "L",
+  "sizes": {
+    "XS": 3,
+    "S": 7,
+    "M": 14,
+    "L": 4,
+    "XL": 4
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1524788750?w=800&q=80",
+      "alt": "Formal Jacket front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1548090638?w=800&q=80",
+      "alt": "Formal Jacket side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this formal jacket represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium formal jacket with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Elite Choice",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "blue",
+    "suits",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false,
+  "discount": 9,
+  "salePrice": 158
+}

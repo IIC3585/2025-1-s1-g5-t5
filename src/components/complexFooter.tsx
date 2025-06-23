@@ -1,31 +1,53 @@
-import data from '../../public/data.json';
-import StoreDoubleColumn from '../components/store/storeDoubleColumn';
-
 export default function ComplexFooter() {
   return (
-    <>
-      <footer>
+    <footer className="footer py-5">
+      <div className="container">
         <div className="row">
-          <div className="col-12 col-md-4">
-            <h5 className="mt-5">Astro Ecommerce</h5>
-            <p className="text-body text-sm pe-5">The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out.</p>
-          </div>
-          <div className="col-12 col-md-8">
-            <StoreDoubleColumn title={data.products[1].title}/>
-          </div>
-          <div className="col-12 mt-5 mb-lg-0 mb-4">
-            <div className="copyright text-center text-sm text-body">
-              Copyright © 
-              <script>
-                document.write(new Date().getFullYear())
-              </script>
-              &nbsp;Astro Ecommerce by &nbsp;
-              <a href="https://www.creative-tim.com" className="text-dark" target="_blank">Creative Tim</a>.
-            </div>
+          <div className="col-lg-8 mx-auto text-center mb-4 mt-2">
+            <a 
+              href="#" 
+              className="text-secondary me-xl-4 me-4" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-lg fab fa-dribbble"></span>
+            </a>
+            <a 
+              href="#" 
+              className="text-secondary me-xl-4 me-4" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-lg fab fa-twitter"></span>
+            </a>
+            <a 
+              href="#" 
+              className="text-secondary me-xl-4 me-4" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-lg fab fa-instagram"></span>
+            </a>
+            <a 
+              href="#" 
+              className="text-secondary me-xl-4 me-4" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-lg fab fa-pinterest"></span>
+            </a>
+            <a 
+              href="#" 
+              className="text-secondary me-xl-4 me-4" 
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="text-lg fab fa-github"></span>
+            </a>
           </div>
         </div>
-      </footer>
-    </>
+      </div>
+    </footer>
   );
 }
 

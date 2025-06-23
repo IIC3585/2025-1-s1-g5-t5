@@ -1,44 +1,78 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import data from '../../public/data.json';
-import '../../assets/scss/astro-ecommerce.scss';
 import Navbar from '../components/navbar';
-import UpperNavbar from '../components/store/upperNavbar';
-import CardProduct from '../components/products/cardProduct';
-import ShoppingCart from '../components/cart/shoppingCart';
-import StoreDoubleColumn from '../components/store/storeDoubleColumn';
+import Footer from '../components/footer';
+import ShoppingCartWithStore from '../components/cart/ShoppingCartWithStore';
+import '../../assets/scss/astro-ecommerce.scss';
 
-let cartItems = [];
-data.shoppingCart.map(id => 
-  data.products.filter(x => x.id == id).map(x => cartItems.push(x))
-)
+// Fetch products from Content Collections
+const allProducts = await getCollection('products');
+const products = allProducts.map(product => product.data);
 ---
 
-<Layout title="Shopping Cart">
-	<main>
-    <Navbar />
-
-    <ShoppingCart products = {cartItems}/>
-    
-    <div class="container mt-5">
-      <div class="row">
-        <h5 class="mb-4">You may also like...</h5>
-        {data.products.map(product => 
-          <div class="col-md-6 col-lg-3">
-            <CardProduct 
-              thumb_src = {product.thumb_src}
-              thumb_alt = {product.thumb_alt}
-              color = {product.color}
-              title = {product.title}
-              price = {product.price}
-              position = "left"
-            />
+<Layout title="Shopping Cart - E-Store">
+    <Navbar client:load />
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="font-weight-bolder mb-3">Carrito de Compras</h1>
+            <p class="lead text-muted">Revisa los productos seleccionados de nuestra colección de {products.length} productos</p>
+            <div class="alert alert-info" role="alert">
+              <i class="bi bi-info-circle-fill me-2"></i>
+              <strong>Carrito Funcional:</strong> El carrito ahora guarda productos agregados usando localStorage
+            </div>
           </div>
-        )}        
+        </div>
       </div>
-      <hr class="dark horizontal my-5" />
-      <StoreDoubleColumn />
-    </div>
-  </main>
+    </section>
 
+    <section class="py-5">
+      <div class="container">
+        <!-- React Shopping Cart Component -->
+        <ShoppingCartWithStore client:load />
+      </div>
+    </section>
+
+      <!-- Related Products -->
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h3 class="font-weight-bold mb-4">También te puede interesar</h3>
+          <div class="row g-4">
+            {products.slice(0, 4).map(product => (
+              <div class="col-md-3">
+                <div class="card h-100 border-0 shadow-sm">
+                  <img src={`${import.meta.env.BASE_URL}${product.thumb_src}`} class="card-img-top" alt={product.thumb_alt} style="height: 200px; object-fit: cover;">
+                  <div class="card-body d-flex flex-column">
+                    <h6 class="card-title font-weight-bold">{product.title}</h6>
+                    <p class="card-text text-muted small flex-grow-1">{product.description.substring(0, 80)}...</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span class="h6 mb-0 text-primary">${product.price}</span>
+                      <a href="/products" class="btn btn-outline-primary btn-sm">Ver más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <Footer />
 </Layout>
+
+<style>
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+</style>

@@ -1,0 +1,70 @@
+{
+  "id": "53",
+  "thumb_src": "/images/product8.jpg",
+  "thumb_alt": "Business Pants Brown",
+  "title": "Brown Business Pants V4",
+  "description": "Premium business pants crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our brown business pants. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 137,
+  "color": "Brown",
+  "colors": [
+    "brown",
+    "black"
+  ],
+  "category": "Formal Wear",
+  "subcategory": "Fall",
+  "brand": "Luxury Series",
+  "rating": 5,
+  "reviews": 193,
+  "stock": true,
+  "size": "L",
+  "sizes": {
+    "XS": 9,
+    "S": 9,
+    "M": 5,
+    "L": 10,
+    "XL": 0
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1579737108?w=800&q=80",
+      "alt": "Business Pants front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1559358791?w=800&q=80",
+      "alt": "Business Pants side view"
+    }
+  ],
+  "features": [
+    "Moisture wicking",
+    "Stretch fabric",
+    "Odor control",
+    "Temperature regulation"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 5 different colors",
+    "Designed for maximum comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this business pants represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium business pants with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Luxury Series",
+    "Material": "Premium synthetic fabric",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "brown",
+    "formal-wear",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}

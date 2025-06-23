@@ -1,0 +1,9 @@
+{
+  "id": "cat-3",
+  "title": "Festival",
+  "description": "Discover our amazing festival collection",
+  "thumb_src": "/images/category3.jpg",
+  "collection": "Summer",
+  "featured": true,
+  "productCount": 12
+}

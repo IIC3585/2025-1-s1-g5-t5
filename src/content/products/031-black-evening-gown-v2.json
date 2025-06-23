@@ -1,0 +1,71 @@
+{
+  "id": "31",
+  "thumb_src": "/images/suit-6.jpg",
+  "thumb_alt": "Evening Gown Black",
+  "title": "Black Evening Gown V2",
+  "description": "Premium evening gown crafted with attention to detail and superior quality materials.",
+  "full_description": "Experience the perfect blend of comfort and style with our black evening gown. Made from high-quality materials and designed for the modern individual who values both fashion and functionality.",
+  "price": 465,
+  "color": "Black",
+  "colors": [
+    "black",
+    "black",
+    "white"
+  ],
+  "category": "Dresses",
+  "subcategory": "Fall",
+  "brand": "Luxury Series",
+  "rating": 4,
+  "reviews": 186,
+  "stock": true,
+  "size": "XL",
+  "sizes": {
+    "XS": 2,
+    "S": 0,
+    "M": 0,
+    "L": 12,
+    "XL": 0
+  },
+  "images": [
+    {
+      "src": "https://images.unsplash.com/photo-1501414177?w=800&q=80",
+      "alt": "Evening Gown front view"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1504088343?w=800&q=80",
+      "alt": "Evening Gown side view"
+    }
+  ],
+  "features": [
+    "Handcrafted details",
+    "Sustainable materials",
+    "Hypoallergenic",
+    "Fade resistant"
+  ],
+  "highlights": [
+    "Made from premium organic materials",
+    "Available in 7 different colors",
+    "Designed for all-day comfort"
+  ],
+  "details": "Crafted with precision and attention to detail, this evening gown represents the perfect balance of style and functionality.",
+  "data": {
+    "Features": "Premium evening gown with advanced features for modern lifestyle",
+    "Care": "Machine washable cold, tumble dry low, iron on low heat",
+    "Shipping": "Free shipping on orders over $100, express delivery available",
+    "Returns": "30-day return policy, satisfaction guaranteed"
+  },
+  "featuresDetails": {
+    "Origin": "Designed by Luxury Series",
+    "Material": "Premium cotton blend",
+    "Dimensions": "Standard sizing, refer to size chart",
+    "Finish": "Professional finishing with reinforced seams"
+  },
+  "tags": [
+    "black",
+    "dresses",
+    "fall",
+    "premium",
+    "fashion"
+  ],
+  "featured": false
+}
